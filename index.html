@@ -1,1 +1,222 @@
-<h1>AesopAI 展示页面 Branch:main</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Animate Anyone">
+  <meta property="og:title" content="Animate Anyone" />
+  <meta property="og:description"
+    content="Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/introduction_img.png" />
+  <meta property="og:image:width" content="2412" />
+  <meta property="og:image:height" content="1394" />
+
+
+  <meta name="twitter:title" content="Animate Anyone">
+  <meta name="twitter:description"
+    content="Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/introduction_img.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Image-to-Video">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Animate Anyone</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AesopAgent: Agent-driven Evolutionary System on Story-to-Video
+              Production</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teaser video-->
+  <!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+  <!-- Your video here -->
+  <!-- <source src="static/videos/teaser1.mp4"
+        type="video/mp4">
+      </video>
+      </h2>
+    </div>
+  </div>
+</section> -->
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              The Agent and AIGC (Artificial Intelligence Generated Content) technology have recently made significant
+              progress. We
+              introduce AesopAgent, an Agent-driven Evolutionary System on Story-to-Video Production. AesopAgent
+              transforms user story
+              proposals into scripts, images, and audio, which are then harmoniously integrated into a video with
+              special effects. The
+              process orchestration technique is employed to optimize the system workflow for multimodal generation.
+              This ensures that
+              the output video is plentiful and coherent. Our system can autonomously convert user story proposals into
+              narrative
+              videos using a well-orchestrated process.
+              AesopAgent is a practical application of agent technology for multimodal content generation, including a
+              horizontal
+              layer and a utility layer. In the horizontal layer, we propose two types of Retrieval-Augmented Generation
+              (RAG)
+              techniques (i.e., Knowledge-RAG and Experience-RAG) to optimize the system workflow. The Knowledge-RAG
+              utilizes expert
+              knowledge to guide the generation of dialogues and narrations, leading to the richly plotted scripts and
+              determining the
+              necessary utilities to be employed. Meanwhile, we observe robust system prompts and illustrative image
+              descriptions
+              through the Experience-RAG, informed by summarizing preliminary system outputs and expert suggestions with
+              LLM (Large
+              Language Model). In the utility layer, we assemble multiple utilities based on the fundamental
+              capabilities of each
+              functional unit. We also optimize the usage of these functional units based on feedback information. It
+              ensures that the
+              generated images are stable and rational in terms of composition, character, and style. The generated
+              contents
+              (including scripts, images, and audio) are assembled into expressive and coherent videos. Overall, our
+              system achieves
+              state-of-the-art performance compared with many previous works.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+
+
+
+  <!-- Youtube video -->
+  <!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop"> -->
+  <!-- Paper video. -->
+  <!-- <h2 class="title is-3">Video</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+  <!-- Youtube embed code here -->
+  <!-- <iframe src="https://www.youtube.com/embed/8PCn5hLKNu4?si=8yvBeRNAJuxp77FZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+  <!-- End youtube video -->
+
+
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/introduction_img.png" alt="MY ALT TEXT" />
+          <h2 class="content has-text-justified">
+            Our AesopAgent, an agent-driven evolutionary system on personalized story-to-video generation. This system
+            would convert the user story proposal into a video assembled with images, audio, narration, and special
+            effects. The processes suggested by AesopAgent with the RAG technique include script generation, image
+            generation, and video assembly.
+          </h2>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+  <!-- Video carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Generated Videos</h2>
+        <div class="container is-max-desktop">
+          <div class="hero-body">
+            <video poster="" id="tree" autoplay controls muted loop height="100%">
+              <!-- Your video here -->
+              <source src="static/videos/generated_videos.mp4" type="video/mp4">
+            </video>
+            </h2>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End video carousel -->
+
+  <script>
+    bulmaCarousel.attach('#results-carousel11', {
+      slidesToScroll: 1,
+      slidesToShow: 2,
+      infinite: true,
+      autoplay: false,
+    });
+    bulmaCarousel.attach('#results-carousel22', {
+      slidesToScroll: 1,
+      slidesToShow: 2,
+      infinite: true,
+      autoplay: false,
+    });
+    bulmaCarousel.attach('#results-carousel33', {
+      slidesToScroll: 1,
+      slidesToShow: 2,
+      infinite: true,
+      autoplay: false,
+    });
+  </script>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
