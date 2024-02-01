@@ -2,7 +2,30 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-
+.isPurple{
+  /* color: #997DFF; */
+  background: linear-gradient(45deg, #997DFF, #6148bc);
+  /* 渐变从红色到蓝色 */
+  background: linear-gradient(45deg, #997DFF, #6148bc);
+  -webkit-background-clip: text;
+  /* 适用于Webkit浏览器 */
+  background-clip: text;
+  /* 适用于非webkit浏览器 */
+  color: transparent;
+  /* 渐变可见的关键 */
+  -webkit-text-fill-color: transparent;
+  /* Webkit浏览器 */
+}
+/* mainboy */
+.main-Body .item{
+  margin-bottom: 80px;
+}
+/* 视频 */
+.generated-Videos .item-video h4{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
 .footer .icon-link {
     font-size: 25px;
     color: #000;
