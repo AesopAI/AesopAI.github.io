@@ -54,6 +54,64 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title"><span class="isPurple">AesopAgent</span>: Agent-driven Evolutionary System on Story-to-Video Production</h1>
+            
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube-square"></i>
+                    </span>
+                    <span>Demo</span>
+                  </a>
+                </span>
+                <!-- Video link -->
+                <!-- <span class="link-block">
+                  <a href="" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>video</span>
+                  </a>
+                </span> -->
+            
+                <!-- Github link -->
+                <!-- <span class="link-block">
+                  <a href="" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+            
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -84,25 +142,22 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              The Agent and AIGC (Artificial Intelligence Generated Content) technology have recently made significant progress. We
-              introduce <strong>Aesop</strong>Agent, an <strong>A</strong>gent-driven <strong>E</strong>volutionary <strong>S</strong>ystem <strong>o</strong>n Story-to-Video <strong>P</strong>roduction. 
-              AesopAgent transforms user story proposals into scripts, images, and audio, which are then harmoniously integrated into
-              a video with special effects. The process orchestration technique is employed to optimize the system workflow for
-              multimodal generation. This ensures that the output video is plentiful and coherent. Our system can autonomously convert
-              user story proposals into narrative videos using a well-orchestrated process. AesopAgent is a practical application of
-              agent technology for multimodal content generation, including a Horizontal Layer and a Utility Layer.
+              The Agent and AIGC (Artificial Intelligence Generated Content) technologies have recently made significant progress. We
+              propose <strong>Aesop</strong>Agent, an <strong>A</strong>gent-driven <strong>E</strong>volutionary <strong>S</strong>ystem
+              <strong>o</strong>n Story-to-Video <strong>P</strong>roduction. AesopAgent is a practical
+              application of agent technology for multimodal content generation. This innovative system would convert user story
+              proposals into scripts, images, and audio, and then integrate these multimodal contents into videos enriched with
+              special effects. The AesopAgent system could orchestrate task workflow for video generation, ensuring that the generated
+              video is both rich in content and coherent.
               <br/>
               <br/>
-              In the Horizontal Layer, we propose two types of Retrieval-Augmented Generation (RAG) techniques (i.e., Knowledge-RAG
-              and Experience-RAG) to optimize the system workflow. The Knowledge-RAG utilizes expert knowledge to guide generating
-              richly plotted scripts and determining the necessary utilities to be employed. Meanwhile, we obtain efficient workflow,
-              robust system prompts, and illustrative image descriptions through the Experience-RAG, informed by summarizing
-              preliminary system outputs and expert suggestions with LLM (Large Language Model). In the Utility Layer, we assemble
-              multiple utilities based on the fundamental capabilities of each functional unit. We also optimize the usage of these
-              functional units based on feedback information. It ensures that the generated images are stable and rational in terms of
-              composition, character, and style. The generated contents (including scripts, images, and audio) are assembled into
-              expressive and coherent videos. Overall, our system achieves state-of-the-art performance compared with many previous
-              works.
+              This system mainly contains two layers, i.e., the Horizontal Layer and the Utility Layer. In the Horizontal Layer, we
+              introduce a novel RAG-based evolutionary system that optimizes the whole video generation workflow and the steps within
+              the workflow. It continuously evolves and iteratively optimizes workflow by accumulating expert experience and
+              professional knowledge, including optimizing the LLM prompts and utilities usage. The Utility Layer provides multiple
+              utilities, leading to consistent image generation that is visually coherent in terms of composition, characters, and
+              style. Meanwhile, it provides audio and special effects, integrating them into expressive and logically arranged videos.
+              Overall, our AesopAgent achieves state-of-the-art performance compared with many previous works in visual storytelling.
             </p>
           </div>
         </div>
@@ -145,46 +200,52 @@
           <!-- Your image here -->
           <img src="static/images/introduction_img.png" alt="MY ALT TEXT" />
           <h2 class="content has-text-justified">
-            Figure 1: <strong>Overview of AesopAgent. </strong>This system would convert the user story proposal into a video assembled with images,
-            audio, narration, and special effects. The workflow suggested by AesopAgent, utilizing agent-based approaches and RAG
-            techniques, encompasses script generation, image generation, and video assembly.
+            Figure 1: <strong>Overview of AesopAgent. </strong>This system would convert the user story proposal into a video assembled with images, audio, narration, and special
+            effects. The video generation workflow suggested by AesopAgent, utilizing agent-based approaches and RAG techniques,
+            encompasses script generation, image generation, and video assembly.
             <br/>
             <br/>
-            Our AesopAgent utilizes agent-based approaches and RAG techniques, coupled with the incorporation of expert insights, to
-            facilitate an iterative evolutionary process that results in an efficient workflow. This workflow enables the automatic
-            creation of high-quality videos from user story proposals. As illustrated in Figure 1, upon receiving a user's ``Dragon
-            Story'' proposal, AesopAgent employs the well-designed workflow by agents implemented with RAGs, including script
-            generation, image generation, and video assembly, ultimately generates a high-quality dragon story video.
+            AesopAgent utilizes agent-based approaches and RAG techniques, coupled with the incorporation of expert insights, to
+            facilitate an iterative evolutionary process that results in an efficient workflow. This workflow creates high-quality
+            videos from user story proposals automatically. As illustrated in Figure 1, upon receiving a user's “Dragon Story”
+            proposal, AesopAgent employs the well-designed workflow by agents implemented with RAGs, including script generation,
+            image generation, and video assembly, ultimately generates a high-quality dragon story video.
           </h2>
         </div>
         <div class="item">
           <!-- Your image here -->
           <img src="static/images/framework_v2.png" alt="MY ALT TEXT" />
           <h2 class="content has-text-justified">
-            Figure 2: <strong>Illustration of the AesopAgent framework. </strong>The bottom part of the figure shows the workflow from the user story
-            proposal to the video, and the top part shows the main components of our method: the Horizontal Layer and the Utility
-            Layer. The Horizontal Layer is responsible for leveraging agent and RAG techniques, optimizing workflow, generating
-            scripts, and optimizing utilities usage, and the Utility Layer is responsible for providing utilities for image
-            generation and video assembly steps.
+            Figure 2: <strong>Illustration of the AesopAgent framework. </strong>The bottom part of the figure shows the workflow from the user story proposal to the video, and the top part shows the
+            main components of our method: the Horizontal Layer and the Utility Layer. The Horizontal Layer is responsible for
+            leveraging agent and RAG techniques, optimizing workflow and prompts, and optimizing utilities usage, and the Utility
+            Layer is responsible for providing utilities for image generation and video assembly steps.
+          </h2>
+        </div>
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/tool_v02.jpg" alt="MY ALT TEXT" />
+          <h2 class="content has-text-justified">
+            Figure 3: <strong>The illustration of Utility Layer. </strong>The Utility Layer contains four modules, i.e., image composition rationality, multiple characters consistency, image
+            style consistency, and dynamic video assembly. Each module has some utilities from the utilities library, and these
+            utilities are created and optimized by the Horizontal Layer.
           </h2>
         </div>
         <div class="item">
           <!-- Your image here -->
           <img src="static/images/Utility_Layer_results_new.png" alt="MY ALT TEXT" />
           <h2 class="content has-text-justified">
-            Figure 3: <strong>Qualitative results of different methods on image generation.</strong> We show the generated images from two stories
-            (i.e., "Goldilocks" and "Epaminondas and Auntie") from SDXL, ComicAI, and our AesopAgent. Specifically, the generated
-            images from different AesopAgent's utility modules are shown in Columns 3 to 6 (note that improvements of the below
-            modules include the improvements of above modules).
+            Figure 4: <strong>Qualitative results of different methods on image generation.</strong> We show the generated images from two stories (i.e., "Goldilocks" and "Epaminondas and Auntie") from SDXL, ComicAI, and
+            our AesopAgent. Specifically, the generated images from different AesopAgent's utility modules are shown in Columns 3 to
+            6 (note that improvements of the below modules include the improvements of above modules).
           </h2>
         </div>
         <div class="item">
           <!-- Your image here -->
           <img src="static/images/Comparison_methods_EN.jpg" alt="MY ALT TEXT" />
           <h2 class="content has-text-justified">
-            Figure 4: <strong>Qualitative comparison with other methods.</strong> We compare the keyframes of our AesopAgent with the other three
-            methods (i.e., Human Design, NUWA-XL, and AutoStory) on three stories. The semantic meaning of each frame is listed
-            above the corresponding generated image.
+            Figure 5: <strong>Qualitative comparison with other methods.</strong> We compare the keyframes of our AesopAgent with the other three methods (i.e., Human Design, NUWA-XL, and AutoStory) on
+            three stories. The semantic meaning of each frame is listed above the corresponding generated image.
           </h2>
         </div>
       </div>
