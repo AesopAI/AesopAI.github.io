@@ -102,7 +102,7 @@ body {
 }
 
 .author-block {
-  display: inline-block;
+  display: block;
 }
 
 .publication-banner img {
